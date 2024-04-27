@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #343a40;
+    padding: 20px;
+    /* display: flex;
+    align-content: flex-end; */
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.navbar .nav-link{
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    margin-right: 20px;
+    text-underline-offset: none;
+    font-size: large;
+}
+@media (max-width: 576px) {
+    .navbar .nav-link{
+        margin-right: 0;
+    }
+}
